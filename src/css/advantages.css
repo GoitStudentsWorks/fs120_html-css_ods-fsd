@@ -16,7 +16,7 @@
   line-height: 150%;
   color: #030a06;
 
-  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .title-advantages {
@@ -28,7 +28,7 @@
   letter-spacing: 0.01em;
   color: #030a06;
 
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .advantages-text {
@@ -48,7 +48,7 @@
   width: 100%;
   max-width: 288px;
 
-  padding-top: 48px;
+  margin-top: 48px;
 }
 
 .benefit-item {
@@ -77,7 +77,7 @@
   letter-spacing: 0.01em;
   color: #030a06;
 
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 /* SECTION advantages TAB */
@@ -124,12 +124,12 @@
   }
 
   .subtitle-advantages {
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
 
   .benefits-list {
     max-width: 1314px;
-    padding-top: 80px;
+    margin-top: 80px;
   }
 
   .benefit-item {
@@ -141,6 +141,6 @@
   }
 
   .title-advantages {
-    padding-bottom: 24px;
+    margin-bottom: 24px;
   }
 }
