@@ -31,11 +31,15 @@
 }
 
 .hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  text-align: center;
   min-width: 288px;
   height: 50px;
   border: 1px solid #030a06;
   border-radius: 6px;
-  padding: 12px 24px;
   background-color: #030a06;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
@@ -75,11 +79,12 @@
     flex-wrap: wrap;
     display: flex;
     max-width: 704px;
+    gap: 24px;
     margin-bottom: 20px;
   }
 
   .hero-title {
-    max-width: 301px;
+    max-width: 340px;
     margin: unset;
   }
 
@@ -87,12 +92,8 @@
     color: #ebf8ed;
   }
 
-  .hero-right {
-    margin-left: auto;
-  }
-
   .hero-text {
-    max-width: 327px;
+    max-width: 340px;
     font-size: 18px;
     margin-bottom: 32px;
   }
@@ -115,9 +116,9 @@
   }
 
   .hero-text-container {
+    gap: 32px;
     max-width: 1312px;
     margin-bottom: 20px;
-    gap: 32px;
   }
 
   .hero-text {
