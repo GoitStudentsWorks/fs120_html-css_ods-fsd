@@ -51,15 +51,15 @@
   line-height: 1.6;
   color: #030a06;
 
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .support-label-input {
   display: flex;
   flex-direction: column;
 
-  /* position: relative;
-    padding-bottom: 20px;
+  /* position: relative; */
+    /* padding-bottom: 20px;
     margin-bottom: 4px; */
 }
 
@@ -113,6 +113,14 @@
   box-shadow: none;
 }
 
+.cont-ivalid-text {
+  display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+position: relative;
+}
+
 .text-invalid {
   display: none;
   font-weight: 400;
@@ -120,10 +128,10 @@
   line-height: 1.6;
   color: #d64040;
 
-  /* position: absolute;
-    bottom: 0;
+  position: absolute;
+    bottom: -20px;
     left: 0;
-    font-size: 12px;
+    /* font-size: 12px;
     line-height: 1.6;
     color: #d64040;
     visibility: hidden; */
