@@ -7,11 +7,11 @@
     padding: 64px 16px;
     width: 320px;
     height: 348px;
-    background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-mob.jpg);
+    background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(/src/public/img/about/about-mob.jpg);
 }
 @media screen and (min-resolution: 2x) {
     .about-section {
-        background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-mob-x2.jpg);
+        background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(/src/public/img/about/about-mob-x2.jpg);
     }
 }
 
@@ -53,12 +53,12 @@
         padding: 80px 32px;
         width: 768px;
         height: 325px;
-        background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-tab.jpg);
+        background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(/src/public/img/about/about-tab.jpg);
     }
 
     @media screen and (min-resolution: 2x) {
         .about-section {
-            background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-tab-x2.jpg);
+            background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(/src/public/img/about/about-tab-x2.jpg);
         }
     }
 
@@ -85,12 +85,12 @@
 
         width: 1440px;
         height: 462px;
-        background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-nout.jpg);
+        background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(/src/public/img/about/about-nout.jpg);
     }
 
     @media screen and (min-resolution: 2x) {
         .about-section {
-            background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(../img/about/about-nout-x2.jpg);
+            background-image: linear-gradient(rgba(23, 23, 33, 0.3), rgba(23, 23, 33, 0.3)), url(/src/public/img/about/about-nout-x2.jpg);
         }
     }
 
