@@ -39,7 +39,8 @@
 .support-form {
   display: flex;
   flex-direction: column;
-  margin-bottom: 24px;
+
+  gap: 24px;
 }
 
 .support-form-label {
@@ -52,6 +53,19 @@
 
   margin-bottom: 8px;
 }
+
+.support-label-input {
+  display: flex;
+  flex-direction: column;
+
+  /* position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 4px; */
+}
+
+/* .support-label-input:last-of-type {
+  margin-bottom: 24px;
+} */
 
 .support-form-input {
   width: 100%;
@@ -75,6 +89,8 @@
 .form-message:focus {
   border: 2px solid rgba(17, 57, 22, 0.6);
   outline: none;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .support-form-input::placeholder,
@@ -86,9 +102,6 @@
   color: rgba(3, 10, 6, 0.6);
 }
 
-.support-form-input:not(:last-child) {
-  margin-bottom: 24px;
-}
 
 /* невалідний інпут */
 
@@ -106,12 +119,22 @@
   font-size: 12px;
   line-height: 1.6;
   color: #d64040;
+
+  /* position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #d64040;
+    visibility: hidden; */
 }
 
 .support-form-input:not(:placeholder-shown):invalid ~ .text-invalid,
 .form-message:not(:placeholder-shown):invalid ~ .text-invalid {
   display: block;
-  margin-bottom: 4.7px;
+  /* margin-bottom: 5px; */
+
+  /* visibility: visible; */
 }
 
 .support-form-input:focus::placeholder,
@@ -126,7 +149,6 @@
   width: 100%;
   resize: none;
   height: 180px;
-  margin-bottom: 24px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 12px;
@@ -158,18 +180,22 @@
   line-height: 1.6;
   display: block;
   margin: 0 auto;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .support-form-button:hover,
 .support-form-button:focus {
   background-color: transparent;
   color: #030a06;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* картинка */
+
+.support-content {
+  margin-bottom: 24px;
+}
 
 .support-background {
   max-width: 288px;
@@ -222,6 +248,7 @@
 /* screen 1440px */
 
 @media screen and (min-width: 1440px) {
+
   .support-form-photo {
     display: flex;
     justify-content: space-between;
@@ -250,5 +277,6 @@
 
   .support-content {
     width: 644px;
+    margin-bottom: 0;
   }
 }
