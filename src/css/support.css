@@ -50,22 +50,12 @@
   font-size: 16px;
   line-height: 1.6;
   color: #030a06;
-
-  /* margin-bottom: 8px; */
 }
 
 .support-label-input {
   display: flex;
   flex-direction: column;
-
-  /* position: relative; */
-    /* padding-bottom: 20px;
-    margin-bottom: 4px; */
 }
-
-/* .support-label-input:last-of-type {
-  margin-bottom: 24px;
-} */
 
 .support-form-input {
   width: 100%;
@@ -131,18 +121,11 @@ position: relative;
   position: absolute;
     bottom: -20px;
     left: 0;
-    /* font-size: 12px;
-    line-height: 1.6;
-    color: #d64040;
-    visibility: hidden; */
 }
 
 .support-form-input:not(:placeholder-shown):invalid ~ .text-invalid,
 .form-message:not(:placeholder-shown):invalid ~ .text-invalid {
   display: block;
-  /* margin-bottom: 5px; */
-
-  /* visibility: visible; */
 }
 
 .support-form-input:focus::placeholder,
